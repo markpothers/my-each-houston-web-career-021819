@@ -5,13 +5,12 @@ def my_each(array)
     x = 0
     while x < array.length
       yield array[x]
-      puts array[x]
       x += 1
     end
 
 
     array
   else
-    puts "This block should not run!"
+    print "This block should not run!"
   end
 end
