@@ -1,5 +1,5 @@
 def my_each(array)
-  if block.given?
+  if block_given?
 
 
     x = 0
